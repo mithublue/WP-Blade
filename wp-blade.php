@@ -22,6 +22,8 @@ add_action('init',function(){
     $engine = new \Xiaoler\Blade\Engines\CompilerEngine($compiler);
     $finder = new \Xiaoler\Blade\FileViewFinder($path);
 
+    $finder->addExtension('txt');
+
     $factory = new \Xiaoler\Blade\Factory($engine, $finder);
 
     add_filter( 'template_include', function ( $template ) use ( $factory) {
