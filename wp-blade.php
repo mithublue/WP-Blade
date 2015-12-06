@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: WP Blade
-Plugin URI: ''
+Plugin URI: 'Build wordpress theme with blade templating'
 Description:
 Version: 0.1
 Author: Mithu A Quayium
